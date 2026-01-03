@@ -18,3 +18,7 @@ k6 run uji_responsivitas.js
 k6 run latency_test.js
 
 6. uji skalabilitas
+k6 run skalabilitas.js
+MODE=normal k6 run skalabilitas.js
+MODE=redirect k6 run skalabilitas.js
+
