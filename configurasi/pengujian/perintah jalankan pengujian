@@ -12,5 +12,8 @@ sudo hping3 -S --flood -p 80 192.168.1.10
 python3 slowloris.py 1922.168.1.10 -p 80 -s 200
 
 4. uji responsivitas sistem
+k6 run uji_responsivitas.js
+
 5. uji latensi
+
 6. uji skalabilitas
