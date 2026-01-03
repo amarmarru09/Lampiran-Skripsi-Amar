@@ -1,6 +1,14 @@
-1. uji kapasitas.js
+1. uji kapasitas 
 k6 run --vus 5 --duration 1m uji_kapasitas.js
 k6 run --vus 10 --duration 1m uji_kapasitas.js
 k6 run --vus 15 --duration 1m uji_kapasitas.js
 
-2.
+2. uji ketahanan sistem
+k6 run stress-test.js
+
+3. uji keamanan redirect
+k6 run redirect_test.js
+
+4. uji responsivitas sistem
+5. uji latensi
+6. uji skalabilitas
