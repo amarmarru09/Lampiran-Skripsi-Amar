@@ -11,7 +11,7 @@ export let options = {
 };
 
 export default function () {
-  const url = 'http://IP_SERVER_UTAMA/';
+  const url = 'http://192.168.1.10/webutama/';
   const res = http.get(url, { redirects: 0 }); // penting: redirect dimatiin
 
   check(res, {
