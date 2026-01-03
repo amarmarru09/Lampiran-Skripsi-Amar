@@ -1,0 +1,6 @@
+1. uji kapasitas.js
+k6 run --vus 5 --duration 1m uji_kapasitas.js
+k6 run --vus 10 --duration 1m uji_kapasitas.js
+k6 run --vus 15 --duration 1m uji_kapasitas.js
+
+2.
