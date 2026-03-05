@@ -16,7 +16,6 @@ uji ketahanan sistem, serta pengujian mekanisme redirect.
 #### 3. uji keamanan redirect
 - k6 run redirect_test.js
 - sudo hping3 -S --flood -p 80 192.168.1.10
-- python3 slowloris.py 1922.168.1.10 -p 80 -s 200
 
 #### 4. uji responsivitas sistem
 - k6 run uji_responsivitas.js
